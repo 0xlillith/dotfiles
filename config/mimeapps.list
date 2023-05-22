@@ -1,0 +1,6 @@
+[Default Applications]
+x-scheme-handler/discord-712465656758665259=discord-712465656758665259.desktop
+
+[Added Associations]
+application/vnd.rar=org.gnome.FileRoller.desktop;org.kde.ark.desktop;
+video/x-matroska=vlc.desktop;mplayer.desktop;

@@ -1,0 +1,15 @@
+[ExtractDialog]
+1280x800 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/ROM/NS/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/ROM/NS,file:$HOME/ROM/NS
+Recent URLs[$e]=file:$HOME/ROM/NS/
+detailViewIconSize=16
+
+[MainWindow]
+1280x800 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAAAAAm0AAAFUAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+splitterSizes=411,206
