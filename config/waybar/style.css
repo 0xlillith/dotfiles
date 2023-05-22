@@ -1,0 +1,67 @@
+@import url("./colors.css");
+* {
+    border: 0px solid coral;
+    border-radius: 0;
+    font-family: Iosevka;
+    font-size: 10pt;
+    min-height: 0;
+}
+window#waybar {
+    opacity: 0.9;
+    background: @background-darker;
+    color: @foreground;
+    border-bottom: 2px solid @background;
+}
+#workspaces button {
+    padding: 0 0px;
+    background: @background;
+    color: @foreground;
+    min-width: 40px;
+}
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background-image: linear-gradient(0deg, @selection, @background-darker);
+}
+#workspaces button.active {
+    background-image: linear-gradient(0deg, @purple, @selection);
+    border-bottom: 1px solid @foreground;
+
+}
+#taskbar button.active {
+    background-image: linear-gradient(0deg, @selection, @background-darker);
+}
+#custom-localIP, #custom-vpnLocalIP, #custom-targetIP, #pulseaudio, #cpu, #temperature, #backlight, #battery, #tray {
+	/* padding: 2 2px; */
+	margin: 0 2px;
+    background: @background-darker;
+}
+#custom-localIP {
+    color: @cyan;
+}
+#custom-vpnLocalIP {
+    color: @green;
+}
+#custom-targetIP {
+    color: @red;
+}
+#pulseaudio {
+    color: @orange;
+}
+#cpu {
+    color: @pink;
+    min-width: 40px;
+}
+#temperature {
+    color: @red;
+}
+#backlight {
+    color: @yellow;
+}
+#battery {
+    color: @cyan;
+    min-width: 60px;
+}
+#tray {
+    color: @pink;
+}
